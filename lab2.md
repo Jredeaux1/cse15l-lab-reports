@@ -63,7 +63,8 @@ __Part Two:__
     for(int i = 0; i < arr.length; i += 1) {
       newArray[i] = arr[arr.length - i - 1];
     }
-    return newArray; `
+    return newArray; 
+    `
 > To fix the bug, we changed the assignment statement in the for loop to copy the value from the original array to the new array rather than overwriting it. We also changed what we returned, we returned the new array instead of the old array. 
 
 
