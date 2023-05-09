@@ -1,9 +1,31 @@
 # Lab Report Number 2: JayLynne Redeaux 
 ## __Part One:__
-> I am having a hard time with this and need to go to tutoring to get help with my outputs. I will be resubmitting this part. I didnt want to leave this empty so I will show my code so far that isnt running anymore. 
+> 
 > > Code: 
 > > ![image](https://user-images.githubusercontent.com/130107248/234170525-1f2f9aad-c7ee-45dd-b54f-f662d336acc1.png)
+![image](https://user-images.githubusercontent.com/130107248/236961437-2eb87267-22f0-4c17-9b71-62acc20b96ef.png)
+>Methods called:
+>* handleRequest(URI url) in the __Handler__ class
+>>The relevant arguments to the handleRequest method in the Handler class are:
+>* url
+>>The relevant fields of the Handler class are:
+>* output
+>>Within the handleRequest method, the relevant values are:
+>* url.getPath() -> /add-message
+>* url.getQuery()
+>* param[0] -> s 
+>* param[1] - > hello
+>* output -> changes to: "Hello\n"
 
+![image](https://user-images.githubusercontent.com/130107248/236962877-df126c8f-ffbb-4526-93ed-20d03baa6d78.png)
+The only changes we have are within the relevant values, questions 1 and 2 remain the same from the first screenshot. 
+>>Within the handleRequest method, the relevant values are:
+>* url.getPath() -> /add-message
+>* url.getQuery() -> "s=Hello%20how%20are%20you"
+>* param[0] -> "s" 
+>* param[1] - > "Hello how are you"
+>* output -> changes to: "Hello\nHello how are you\n"
+>
 __Part Two:__
 >__Failure inducing code:__ 
 >
@@ -16,10 +38,10 @@ __Part Two:__
 > __An input that doesn’t induce a failure:__
  
 >`@Test
->public void testReversed() {
->int[] input1 = { };
->assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
->}`
+  public void testReversed2() {
+    int[] input1 = { 10, 5, 0 };
+    assertArrayEquals(new int[]{0,5,10 }, ArrayExamples.reversed(input1));
+  }`
 >
 > __The Symptoms Of both Inputs:__
 > ![image](https://user-images.githubusercontent.com/130107248/234173007-aaa68a2f-424d-4619-b3aa-89d30fcc72c3.png)
