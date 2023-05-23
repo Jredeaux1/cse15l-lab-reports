@@ -1,5 +1,5 @@
 ## Lab Report 3: JayLynne Redeaux ❤️ 
-#
+
 Command Researched: __Grep__ 
 
 > __1: -c__
