@@ -1,6 +1,6 @@
 ## Lab Report 3: JayLynne Redeaux ❤️ 
 #
-Command Researched: __Grep__ & Source used: https://chat.openai.com 🤖 (Prompt: Hey man, do me a solid and give me a bullet point list of 20 cool and helpful ways to use the grep command. Thanks)
+Command Researched: __Grep__ 
 
 > __1: -c__
 > * Input: `grep -c "cell" technical/biomed/rr171.txt ` 
@@ -21,7 +21,7 @@ technical/government/Alcohol_Problems/Session4-PDF.txt:130 `
 >* Output: `By Kelly Greene
 reach all 50 by the end of March. You have to pay the group's dues `
 
->> -v is useful when you want to get all of th elines that dont include a specific pattern or string. If you had a large sum of text and needed to filter out certain words in the lines this is the tool for you :P
+>> -v is useful when you want to get all of the lines that dont include a specific pattern or string. If you had a large sum of text and needed to filter out certain words in the lines this is the tool for you :P
 >> 
 >* Input: `grep -v "emergency" technical/government/Alcohol_Problems/Session2-PDF.txt | grep -c "alcohol" ` 
 >* Output: `93`
@@ -50,3 +50,11 @@ reach all 50 by the end of March. You have to pay the group's dues `
 >* Output: `technical/government/Media/Advocate_for_Poor.txt:all the paperwork. We got the nonprofit status from the feds. We`
 >
 >>This command searches for the word "fEDs" in any text file located in the "Media" directory within the "technical/government" directory, ignoring any case differences. This is important because you always need to know where the feds are hiding regardless of how they capitalize 😈 . 
+
+
+
+
+Source used: https://chat.openai.com 🤖 (Prompt: Hey man, do me a solid and give me a bullet point list of 20 cool and helpful ways to use the grep command. Thanks) 
+![image](https://github.com/Jredeaux1/cse15l-lab-reports/assets/130107248/83ba503d-4f31-461d-b145-733edeb589cf)
+I took some of the bullet points along with the basic definition and implemented them in VSCode. I had to play around with them and figure out how they could be useful. I changed the output to fit into the folder we were given. 
+
