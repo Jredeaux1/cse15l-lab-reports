@@ -27,7 +27,7 @@ The only changes we have are within the relevant values, questions 1 and 2 remai
 >* output -> changes to: "Hello\nHello how are you\n"
 >
 __Part Two:__
->__Failure inducing code:__ 
+>__Input that does induce failure:__ 
 >
   >`@Test
   >public void testReversed() {
@@ -35,7 +35,7 @@ __Part Two:__
   >  assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   >}`
 > 
-> __An input that doesn’t induce a failure:__
+> __An input that does induce a failure:__
  
 >`@Test
   public void testReversed2() {
